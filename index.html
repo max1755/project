@@ -37,7 +37,7 @@
 
     <div class = "game">
 
-        <input class = "input" maxlength="2" type="text" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"/></input>
+        <input class = "input" maxlength="2" type="text" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" onfocus="this.value=''"/></input>
         <button class = "guess">Guess that number!</button>
         <div class = "container">
 

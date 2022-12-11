@@ -23,11 +23,11 @@ function acceptGuess() {
     }
 
     if (input > gameVariable.randomValue){
-    document.querySelector('.message').innerHTML = "My number isn't that big!";
+    document.querySelector('.message').innerHTML = "My number is less than "+input+"!";
     coloring();
     }
    if (input < gameVariable.randomValue){
-    document.querySelector('.message').innerHTML = "My number is bigger than that!";
+    document.querySelector('.message').innerHTML = "My number is bigger than "+input+"!";
     coloring();
     }
    if (input === gameVariable.randomValue){
